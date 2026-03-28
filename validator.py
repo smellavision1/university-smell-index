@@ -6,7 +6,6 @@ import sys
 def check_all_scents():
     error_found = False
     for filename in os.listdir('.'):
-        # Only check scent JSON files in the main folder
         if filename.endswith('.json') and filename not in ['package.json', 'package-lock.json']:
             with open(filename, 'r') as f:
                 data = json.load(f)
@@ -17,7 +16,7 @@ def check_all_scents():
             
             try:
                 compound = pcp.Compound.from_cid(data['cid'])
-                # This also removes ALL spaces from the official name
+                # This also removes ALL spaces from the official PubChem name
                 official = compound.iupac_name.replace(" ", "").lower()
                 
                 if user_chem not in official and official not in user_chem:
