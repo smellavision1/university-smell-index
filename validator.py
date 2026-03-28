@@ -6,21 +6,22 @@ import sys
 def check_all_scents():
     error_found = False
     for filename in os.listdir('.'):
+        # Only check scent JSON files in the main folder
         if filename.endswith('.json') and filename not in ['package.json', 'package-lock.json']:
             with open(filename, 'r') as f:
                 data = json.load(f)
             
-            # .strip() removes hidden spaces, .lower() ignores Capitals
-            user_chem = data['chemical'].strip().lower()
+            # This removes ALL spaces and makes it lowercase
+            user_chem = str(data['chemical']).replace(" ", "").lower()
             print(f"Checking {filename}...")
             
             try:
                 compound = pcp.Compound.from_cid(data['cid'])
-                official = compound.iupac_name.lower()
+                # This also removes ALL spaces from the official name
+                official = compound.iupac_name.replace(" ", "").lower()
                 
-                # We check if your name is PART of the official name to be safe
                 if user_chem not in official and official not in user_chem:
-                    print(f"❌ {filename}: '{user_chem}' != official '{official}'")
+                    print(f"❌ {filename}: '{data['chemical']}' doesn't match official '{compound.iupac_name}'")
                     error_found = True
             except:
                 print(f"❌ {filename}: CID {data['cid']} is invalid!")
