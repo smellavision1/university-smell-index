@@ -1,7 +1,7 @@
 {
     "id": "002",
     "name": "Banana",
-    "chem": "isoamyl acetate",
+    "chemical": "isoamyl acetate",
     "cid": 31276,
     "tags": [
         "fruity",
