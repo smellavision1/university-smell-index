@@ -1,11 +1,11 @@
 {
-    "id": "006",
-    "name": "Rose",
-    "chemical": "morpholine;(E)-octadec-9-enoic acid"
-    "cid": 6433241,
-    "tags": [
-        "floral",
-        "sweet",
-        "rose"
-    ]
+  "id": "006",
+  "name": "Rose",
+  "chemical": "Phenethyl alcohol",
+  "cid": 6054,
+  "tags": [
+    "floral",
+    "sweet",
+    "rose"
+  ]
 }
