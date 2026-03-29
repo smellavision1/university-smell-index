@@ -1,8 +1,8 @@
 {
     "id": "009",
     "name": "Vanilla",
-    "chem": "Vanillin",
-    "cid": "1183",
+    "chemical": "4-hydroxy-3-methoxybenzaldehyde",
+    "cid": 1183,
     "tags": [
         "sweet",
         "creamy"
