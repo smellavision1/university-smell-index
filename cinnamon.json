@@ -1,10 +1,10 @@
 {
-    "id": "001",
-    "name": "Cinnamon",
-    "chemical": "(E)-3-phenylprop-2-enal",
-    "cid": 637511,
-    "tags": [
-        "spicy",
-        "warm"
-    ]
+  "id": "001",
+  "name": "Cinnamon",
+  "chemical": "(E)-3-phenylprop-2-enal",
+  "cid": 637511,
+  "tags": [
+    "spicy",
+    "warm"
+  ]
 }
