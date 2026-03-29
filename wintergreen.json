@@ -1,6 +1,6 @@
 {
     "name": "Wintergreen",
-    "chemical": "methylsalicylate",
+    "chemical": 'methyl 2-hydroxybenzoate',
     "cid": 4133,
     "tags": [
         "minty",
