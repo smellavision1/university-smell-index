@@ -1,11 +1,1 @@
-{
-  "id": "002",
-  "name": "Banana",
-  "chemical": "3-methylbutyl acetate",
-  "cid": 31276,
-  "tags": [
-    "fruity",
-    "sweet",
-    "banana"
-  ]
-}
+{"id":"002","name":"Banana","chemical":"3-methylbutyl acetate","cid":31276,"tags":["fruity","sweet","banana"]}
