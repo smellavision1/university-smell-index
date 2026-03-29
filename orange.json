@@ -1,11 +1,10 @@
 {
-    "id": "005",
-    "name": "Orange",
-    "chemical": "(4R)-1-methyl-4-prop-1-en-2-ylcyclohexene",
-    "cid": 440917,
-    "tags": [
-        "citrus",
-        "zesty",
-        "bright"
-    ]
+  "id": "005",
+  "name": "Orange",
+  "chemical": "(4R)-1-methyl-4-prop-1-en-2-ylcyclohexene",
+  "cid": 440917,
+  "tags": [
+    "citrus",
+    "fresh"
+  ]
 }
