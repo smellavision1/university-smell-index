@@ -1,7 +1,7 @@
 {
     "id": "006",
     "name": "Rose",
-    "chemical": "4-methyl-2-(2-methylprop-1-enyl)oxane",
+    "chemical": 'morpholine;(E)-octadec-9-enoic acid'
     "cid": 6433241,
     "tags": [
         "floral",
